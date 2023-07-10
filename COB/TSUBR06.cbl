@@ -5,7 +5,7 @@
 000500 DATE-COMPILED.
 000600
 000700********************************************************
-000800* THIS PROGRAM IS A TRAINING PROGRAM 03
+000800* THIS PROGRAM IS A TRAINING PROGRAM 03 10/07
 000900*      CALLED FROM    TPROG06
 001000*      WITH COPYLIB   TCPYB06 (LINKAGE AREA)
 001100* ======================================================
