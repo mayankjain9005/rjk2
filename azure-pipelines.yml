@@ -29,3 +29,4 @@ steps:
     application: 'play'
     encryptionProtocol: 'NONE'
     codePage: '1047 - Latin 1 (Open Systems)'
+    branchMapping: '**/main => DEV1, per-commit'
