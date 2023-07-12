@@ -29,6 +29,6 @@ steps:
     containerType: 'Assignment'
     containerId: 'HARY008845'
     componentType: 'COB'
-    taskLevel: 'PRD'
+    taskLevel: 'STG1'
     downloadUnchangedSource: true
     downloadIncludes: true
