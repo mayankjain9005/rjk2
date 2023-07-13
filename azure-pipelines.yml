@@ -20,15 +20,15 @@ steps:
 
 - task: azure-deveops-ispw-operation-task@2
   inputs:
-    connectionId: 'cw09.bmc.com:47623#1047 - Latin 1 (Open Systems)'
+    connectionId: 'cw09.bmc.com:47624#1047 - Latin 1 (Open Systems)'
     operationType: 'ISPWSYNC'
     windowsWorkbenchCliHome: 'C:\WorkbenchCLI'
-    runtimeConfiguration: 'tpzp'
+    runtimeConfiguration: 'tptp'
     ispwusername: 'ispwtpz'
     ispwpassword: 'ispw13'
     stream: 'play'
     application: 'play'
-    subApplication: ''
+    subApplication: 'play'
     encryptionProtocol: 'NONE'
     codePage: '1047 - Latin 1 (Open Systems)'
     branchMapping: '**/main => DEV1, per-commit'
