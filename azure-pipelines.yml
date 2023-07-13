@@ -17,18 +17,17 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: downloadertask@1
+- task: azure-deveops-ispw-operation-task@2
   inputs:
     connectionId: 'cw09.bmc.com:47623#1047 - Latin 1 (Open Systems)'
-    runtimeConfig: 'tpzp'
-    ispwUserId: 'ispwtpz'
-    password: 'ispw13'
-    windowsTopazWorkbenchCliHome: 'C:\WorkbenchCLI'
-    sourceDownloadLocation: 'C:\work'
-    downloadSourceType: 'Container'
-    containerType: 'Assignment'
-    containerId: 'HARY008845'
-    componentType: 'COB'
-    taskLevel: 'PRD'
-    downloadUnchangedSource: true
-    downloadIncludes: true
+    operationType: 'ISPWSYNC'
+    windowsWorkbenchCliHome: 'C:\WorkbenchCLI'
+    runtimeConfiguration: 'tpzp'
+    ispwusername: 'ispwtpz'
+    ispwpassword: 'ispw13'
+    stream: 'play'
+    application: 'play'
+    encryptionProtocol: 'NONE'
+    codePage: '1047 - Latin 1 (Open Systems)'
+    timeout: '1000000'
+    branchMapping: '**/main => DEV1, per-commit'
